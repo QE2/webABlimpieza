@@ -1,0 +1,40 @@
+---
+layout: default  
+title: Home  
+---
+
+  
+ {{ page.title }}  
+
+# {{ site.title }}
+
+{{ site.description }}
+
+* [Home]({{%20'/'%20|%20relative_url%20}})
+* [About]({{%20'/sobre-nosotros'%20|%20relative_url%20}})
+* [Contact]({{%20'/contacto'%20|%20relative_url%20}})
+
+  
+
+## Bienvenido a {{ site.title }}!
+
+  
+
+Esta es la página home de su sitio web.
+
+  
+
+Escriba el contenido que desee entre las etiqueta &lt;main&gt; y &lt;/main&gt;
+
+    <!-- List of recent posts -->
+    <h3>Artículos recientes</h3>
+    <ul>
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <small>{{ post.date | date: "%B %d, %Y" }}</small>
+        </li>
+      {% endfor %}
+    </ul>
+
+© {{ site.time | date: "%Y" }} {{ site.author }}. Todos los derechos reservados
