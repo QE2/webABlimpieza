@@ -18,25 +18,23 @@ title: Home
     <p>{{ site.description }}</p>
   </header>
 
-  <nav>
+
+<nav class="barra-lateral">
       <ul>
-        <li>[Home]({{%20'/'%20|%20relative_url%20}})</li>
-        <li>[About]({{%20'/sobre-nosotros'%20|%20relative_url%20}})</li>
-        <li>[Contact]({{%20'/contacto'%20|%20relative_url%20}})</li>
+        <li><a href="{{%20'/'%20|%20relative_url%20}}">Inicio</a></li>
+        <li><a href="{{%20'/sobre-nosotros'%20|%20relative_url%20}}">Sobre nosotros</a></li>
+        <li><a href="{{%20'/contacto'%20|%20relative_url%20}}">Contacto</a></li>
       </ul>
 </nav>
 
 
 <h2>Bienvenido a {{ site.title }}, empresa de limpiezas técnicas en el Baix Llobregat</h2>
 
-
-
-Limpiezas técnicas en el Baix Llobregat.
-
+<h3>Sitio web en construcción.</h3>
 
 
 
-    <!-- List of recent posts -->
+    <!-- List of recent posts
     <h3>Artículos recientes</h3>
     <ul>
       {% for post in site.posts %}
@@ -45,7 +43,7 @@ Limpiezas técnicas en el Baix Llobregat.
           <small>{{ post.date | date: "%B %d, %Y" }}</small>
         </li>
       {% endfor %}
-    </ul>
+    </ul>  -->
 
 </body>
 </html>
