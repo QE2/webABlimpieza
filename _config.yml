@@ -1,5 +1,5 @@
 # Ajustes del sitio. Archivo _config.yml
-title: "Título del sitio"
+title: "AB limpieza"
 description: "Empresa de limpieza técnica en el Baix Llobregat (BCN)"
 baseurl: "" # Si el sitio web está en un subdirectorio, como p. ej. "/blog"
 url: "https://webABlimpieza.com.github.io" # La URL de su sitio sin el subdirectorio
