@@ -2,4 +2,16 @@
 ---
 
 @import "{{ site.theme }}";
-/* CSS personalizado */
+
+/* FUENTES */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Montserrat Alternates no es una fuente variable, por eso se indica el font-weight y font-style */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
