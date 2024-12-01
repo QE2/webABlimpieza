@@ -204,4 +204,26 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
 .trjt-flotantes .tarjeta:focus-within ~ .tarjeta, .trjt-flotantes .tarjeta:hover ~ .tarjeta {
 	transform: translateX(130px);}
 
+
+
+/* cabecera superior */
+
+#cabecera-superior {
+  height: 40px;
+  background-color: #14396e;
+  color: white;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: .5em;
+}
+
+.icono-info  {
   
+}
+
+
+/* Iconos información */
+
