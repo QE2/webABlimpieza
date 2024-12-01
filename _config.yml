@@ -8,6 +8,7 @@ author: "Javier Rodríguez"
 # Configuración
 markdown: kramdown
 theme: minima # Cambie el tema si desea usar uno diferente
+paginate: 5
 
 # Permalinks
 permalink: /:categories/:title.html
@@ -20,6 +21,7 @@ plugins:
   - jekyll-paginate
   - jekyll-archives
   - jekyll-admin
+
 # Optional settings
 timezone: "Europe/Madrid" # Ajuste según su zona horaria
 language: "es"
