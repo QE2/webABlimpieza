@@ -1,0 +1,50 @@
+---
+layout: default
+title: Home
+---
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.description }}</p>
+  </header>
+
+
+<nav id="menu-pral">
+      <ul>
+        <li><a href="{{%20'/'%20|%20relative_url%20}}">Inicio</a></li>
+        <li><a href="{{%20'/sobre-nosotros'%20|%20relative_url%20}}">Sobre nosotros</a></li>
+        <li><a href="{{%20'/contacto'%20|%20relative_url%20}}">Contacto</a></li>
+      </ul>
+</nav>
+
+
+<h2>Bienvenido a {{ site.title }}, empresa de limpiezas técnicas en el Baix Llobregat</h2>
+
+<h3>Sitio web en construcción.</h3>
+
+
+
+    <!-- List of recent posts
+    <h3>Artículos recientes</h3>
+    <ul>
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <small>{{ post.date | date: "%B %d, %Y" }}</small>
+        </li>
+      {% endfor %}
+    </ul>  -->
+
+</body>
+</html>
+© {{ site.time | date: "%Y" }} {{ site.author }}. Todos los derechos reservados
