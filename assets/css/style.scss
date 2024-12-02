@@ -285,7 +285,7 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
     background-image: url('/iconos/icono-telefono.webp');
 }
 
-
+/* CONTENIDO HOME */
 
 .frame-1  {
   position: relative;
@@ -294,10 +294,15 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
 }
 
 .descripcion-empresa  {
-  font-size: 50px;
   font-weight: 700;
   position: relative;
   z-index: 3;
   width: 80%;
 }
 
+.descripcion-empresa h1  {
+    font-size: 45px;
+}
+.descripcion-empresa h2  {
+    font-size: 40px;
+}
