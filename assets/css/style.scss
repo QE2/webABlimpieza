@@ -265,10 +265,28 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
     /* vertical-align: middle; tal vez necesario más adelante */
 }
 
-/* Iconos información */
-.icono-info  {
-  
+/* Iconos información de la cabecera superior */
+.icono-tel::before, .icono-email::before  {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+.icono-email::before  {
+    background-image: url('/iconos/icono-email.webp');
+}
+
+.icono-tel::before {
+    background-image: url('/iconos/icono-telefono.webp');
+}
+
+
+
 .frame-1  {
   position: relative;
   top: 140px;
@@ -282,3 +300,4 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
   z-index: 3;
   width: 80%;
 }
+
