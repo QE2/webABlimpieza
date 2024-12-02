@@ -96,6 +96,12 @@ DISEÑO RESPOSIVE:
 
 .oculto	{display: none;}
 
+/* */
+
+.wrapper  { /* tratar de eliminar estas reglas, al averiguar de donde sale .wraper. Probablemente de la plantilla predeterminada  */
+    max-width: none;
+}
+
 /* CAJAS FLOTANTES */
 
 /* En vista móvil las centra, e impide que las cajas sean más grandes que la imagen (solo hasta 991px) [05/2021] :*/
@@ -245,10 +251,9 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
     font-weight: 600;
     font-size: 22px;
 }
-#cabecera-pral nav a {
+#cabecera-pral nav a, #cabecera-pral nav a:hover  {
   text-decoration: none;
 }
-
 
 .logo  {
   max-height: 120px;
@@ -257,7 +262,10 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
 .icono-info  {
   
 }
-
+.frame-1  {
+  position: relative;
+  top: 150px;
+}
 
 /* Iconos información */
 
