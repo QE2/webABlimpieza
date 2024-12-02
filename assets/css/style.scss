@@ -259,13 +259,17 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
   max-height: 120px;
 }
 
+/* Iconos información */
 .icono-info  {
   
 }
 .frame-1  {
   position: relative;
   top: 150px;
+  height: 1067px;
 }
 
-/* Iconos información */
-
+.frame-1 h2  {
+  font-size: 50px;
+  font-weight: 700;
+}
