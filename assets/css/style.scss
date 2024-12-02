@@ -96,10 +96,11 @@ DISEÑO RESPOSIVE:
 
 .oculto	{display: none;}
 
-/* */
+/* ELEMENTOS ESTRUCTURALES */
 
 .wrapper  { /* tratar de eliminar estas reglas, al averiguar de donde sale .wraper. Probablemente de la plantilla predeterminada  */
     max-width: none;
+    padding: 0;
 }
 
 /* CAJAS FLOTANTES */
@@ -225,16 +226,20 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
   padding-right: 30px;
   padding-left: 30px;
   padding-top: .5em;
+  z-index: 100000;
 }
 /* Cabecera principal */
 
 #cabecera-pral  {
-  position: fixed;
-  top: 60px;
-  width: 100%;
-  padding-right: 30px;
-  padding-left: 30px;
-  box-shadow: 0 0 7px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 40px;
+    top: 60px;
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    box-shadow: 0 0 7px rgba(0,0,0,0.1);
+    background-color: #fff;
+    z-index: 99999;
 }
 #cabecera-pral li  {
     display: inline-block;
