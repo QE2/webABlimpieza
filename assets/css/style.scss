@@ -269,7 +269,7 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
     /* vertical-align: middle; tal vez necesario más adelante */
 }
 
-/* Iconos información de la cabecera superior */
+/* Iconos información de la cabecera superior
 .icono-tel::before, .icono-email::before  {
     content: "";
     position: absolute;
@@ -282,12 +282,12 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
     background-repeat: no-repeat;
 }
 .icono-email::before  {
-    background-image: url('/assets/img//iconos/icono-email.webp');
+    background-image: url('/assets/img/iconos/icono-email.webp');
 }
 
 .icono-tel::before {
     background-image: url('/assets/img/iconos/icono-telefono.webp');
-}
+}  */
 
 /* CONTENIDO HOME */
 
@@ -314,9 +314,9 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
 /* Para desktop: */
 @media only screen and (min-width: 768px) {
     .descripcion-empresa h1  {
-    font-size: 45px;
+    font-size: 60px;
 }
 .descripcion-empresa h2  {
-    font-size: 40px;
+    font-size: 50px;
 }
 }
