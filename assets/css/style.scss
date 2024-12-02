@@ -272,4 +272,8 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
 .frame-1 h2  {
   font-size: 50px;
   font-weight: 700;
+  position: relative;
+  z-index: 3;
+  width: 80%;
+  max-width: 1080px;
 }
