@@ -230,7 +230,8 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
   padding-left: 30px;
 }
 #cabecera-pral li  {
-  display: inline-block;
+    display: inline-block;
+    padding-right: 22px;
 }
 #contenedor-logo  {
   position: absolute;
@@ -244,6 +245,11 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
     font-size: 22px;
     box-shadow: 0 0 7px rgba(0,0,0,0.1);
 }
+#cabecera-pral nav a {
+  text-decoration: none;
+}
+
+
 .logo  {
   max-height: 120px;
 }
