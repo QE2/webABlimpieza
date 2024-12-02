@@ -302,11 +302,21 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
   position: relative;
   z-index: 3;
   width: 80%;
+  padding: 6%;
 }
 
 .descripcion-empresa h1  {
+    font-size: 30px;
+}
+.descripcion-empresa h2  {
+    font-size: 30px;
+}
+/* Para desktop: */
+@media only screen and (min-width: 768px) {
+    .descripcion-empresa h1  {
     font-size: 45px;
 }
 .descripcion-empresa h2  {
     font-size: 40px;
+}
 }
