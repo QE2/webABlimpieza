@@ -1,10 +1,12 @@
 <header>
   <div id="cabecera-superior">
-    <span class="icono-info">☎</span> 615 45 56 67 · <span class="icono-info">✉</span> info@ablimpieza.com
+    <span class="icono-tel"><a href="tel:+34615455667">+34 615 45 56 67</a></span>
+
+    615 45 56 67 · <span class="icono-info">✉</span> info@ablimpieza.com
   </div>
   <div id="cabecera-pral">
     <div id="contenedor-logo">
-      <a href="{{ '/' | relative_url }}"> <img src="{{ '/assets/img/logo-AB-limpieza.png' | relative_url }}" alt="{{ site.title }} logo"></a>
+      <a href="{{ '/' | relative_url }}"> <img class="logo"  src="{{ '/assets/img/logo-AB-limpieza.png' | relative_url }}" alt="{{ site.title }} logo"></a>
       </div> <!-- #contenedor-logo -->
   <nav>
 	<ul>
