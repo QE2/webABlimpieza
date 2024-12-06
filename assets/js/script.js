@@ -8,10 +8,10 @@ for (i = 0; i < col.length; i++) {
   col[i].addEventListener("click", function() {
     this.classList.toggle("activo");
     var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
     } else {
-      content.style.display = "block";
+      content.style.maxHeight = content.scrollHeight + "px";
     }
   });
 }
