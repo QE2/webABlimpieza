@@ -328,3 +328,11 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
   overflow: hidden;
   background-color: #f1f1f1;
 }
+
+/* IMÁGENES DE FONDO */
+
+.img-fondo  {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
