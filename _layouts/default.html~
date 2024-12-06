@@ -5,6 +5,7 @@
     {% include head.html %}
 </head>
 <body>
-    {{ content }}
+  {{ content }}
+  {% include footer.html %}
 </body>
 </html>
