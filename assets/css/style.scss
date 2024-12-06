@@ -212,7 +212,6 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
 	transform: translateX(130px);}
 
 
-
 /* CABECERAS */
 
 /* Cabecera superior  */
@@ -251,6 +250,7 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
 #contenedor-logo  {
   position: absolute;
   height: 100%;
+  line-height: 125px;
 }
 #cabecera-pral nav  {
     float: right;
@@ -303,9 +303,7 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
 }
 }
 
-
 /* Menú colapsable estilo acordeón */
-
 .colapsable {
   background-color: #777;
   color: white;
