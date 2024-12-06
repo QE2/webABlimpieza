@@ -274,9 +274,8 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
 /* CONTENIDO HOME */
 
 .frame-1  {
-  position: relative;
-  top: 140px;
-  height: 1067px;
+    height: 1067px;
+    background-image: url('/assets/img/mujer-limpieza-cristales-ventana-no-atrib-Pixabay.com.webp');
 }
 
 .descripcion-empresa  {
@@ -333,8 +332,4 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-
-.frame-1  {
-    background-image: url('/assets/img/mujer-limpieza-cristales-ventana-no-atrib-Pixabay.com.webp');
 }
