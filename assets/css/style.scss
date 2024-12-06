@@ -11,9 +11,14 @@ body {
 
 /* Montserrat Alternates no es una fuente variable, por eso se indica el font-weight y font-style */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h2  {
+    font-size: 40px;
+    padding: 15px 0 10px;
 }
 
 /* ---------------
@@ -302,7 +307,11 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
 }
 }
 
-/* Menú colapsable estilo acordeón */
+/* Menú colapsable estilo acordeón - faq */
+#faq  {
+    padding: 10px 30px;
+}
+
 .colapsable {
   background-color: #777;
   color: white;
@@ -312,7 +321,7 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 22px;
 }
 
 .activo .colapsable:hover {
@@ -327,6 +336,7 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
   max-height: 0;
   transition: max-height 0.2s ease-out;
 }
+.contenido p {margin: 20px 10px;}
 
 /* IMÁGENES DE FONDO */
 
