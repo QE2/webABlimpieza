@@ -337,6 +337,16 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
   transition: max-height 0.2s ease-out;
 }
 .contenido p {margin: 20px 10px;}
+.colapsable:after {
+  content: '\02795'; /* Caracter Unicode del signo "mas" (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+.activo:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
 
 /* IMÁGENES DE FONDO */
 
