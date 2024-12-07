@@ -337,6 +337,8 @@ box-shadow: 7px 10px 20px rgba(0,0,0,.8);
   transition: max-height 0.2s ease-out;
 }
 .contenido p {margin: 20px 10px;}
+
+/* Añade signos +- a los bloques de acordeón */
 .colapsable:after {
   content: '\02795'; /* Caracter Unicode del signo "mas" (+) */
   font-size: 13px;
