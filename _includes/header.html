@@ -9,11 +9,35 @@
     <div id="contenedor-logo">
       <a href="{{ '/' | relative_url }}"> <img class="logo"  src="{{ '/assets/img/logo-AB-limpieza.png' | relative_url }}" alt="{{ site.title }} logo"></a>
       </div> <!-- #contenedor-logo -->
-  <nav>
-	<ul>
-		<li><a href="{{ '/' | relative_url }}">Inicio</a></li> <li><a href="{{ '/servicios' | relative_url }}">Servicios</a></li>
-		<li><a href="{{ '/contacto' | relative_url }}">Contacto</a></li>
-	</ul>
-</nav>
+
+    <!--
+	.topnav -> .cabecera-nav
+	#myTopnav -> #cabecera-nav-pral
+	.active -> .activo
+	.dropdown -> .desplegable
+	.dropbtn -> .boton-despl
+	.dropdown-content -> .contenido-despl
+	.responsive -> =
+	-->
+
+<nav class="menu-pral" id="cabecera-nav-pral">
+  <ul>
+    <li><a href="{{ '/' | relative_url }}" class="activo">Inicio</a></li>
+    <li><a href="{{ '/servicios' | relative_url }}">
+	<div class="desplegable">
+	  <button class="boton-despl">Servicios
+	  <i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="contenido-despl">
+	    <a href="#tecnica">Limpieza técnica</a>
+	    <a href="#industrial">Limpieza industrial</a>
+	    <a href="#comunidades">Comunidades de propietarios</a>
+	  </div><!-- contenido-despl -->
+	</div><!-- .desplegable -->
+	</a></li>
+    <li><a href="{{ '/contacto' | relative_url }}">Contacto</a></li>
+    <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a></li>
+  </ul>
+</nav><!-- .menu-pral #cabecera-nav-pral -->
 </div> <!-- #cabecera-pral -->
 </header>
