@@ -7,7 +7,7 @@ author: "<a href='https://www.qe2computing.com/'>QE2 computing</a>"
 
 # Configuración
 markdown: kramdown
-theme: minima # Cambie el tema si desea usar uno diferente
+# theme: minima # Cambie el tema si desea usar uno diferente
 paginate: 5
 
 # Permalinks
