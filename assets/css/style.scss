@@ -159,6 +159,12 @@ DISEÑO RESPOSIVE:
     font-size: 22px;
     line-height: 2.5;
 }
+#cabecera-nav-pral a {
+  color: rgba(0,0,0,0.6);
+  text-decoration: none;
+  display: block;
+}
+
 /* Tal vez no será necesario
 #cabecera-pral nav a, #cabecera-pral nav a:hover  {
   text-decoration: none;
