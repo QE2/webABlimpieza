@@ -207,14 +207,16 @@ DISEÑO RESPOSIVE:
   display: none;
 }
 
-/* Dropdown container - needed to position the dropdown content */
+/* Dropdown container - needed to position the dropdown content
+Desequilibra la alineación de los menús, y tal vez no sea necesario
 .desplegable {
   float: left;
   overflow: hidden;
-}
+} */
 
 /* Style the dropdown button to fit inside the topnav */
 .desplegable .boton-despl {
+
   border: none;
   outline: none;
   background-color: inherit;
