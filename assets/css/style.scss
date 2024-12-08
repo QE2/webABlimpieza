@@ -167,13 +167,6 @@ DISEÑO RESPOSIVE:
     /* vertical-align: middle; tal vez necesario más adelante */
 }
 
-
-
-
-
-
-
-
 /* Menú  de navegación colapsable en dispositivos móviles */
 
  /* Add a black background color to the top navigation */
@@ -195,8 +188,16 @@ DISEÑO RESPOSIVE:
 
 /* Add an active class to highlight the current page */
 .activo {
-  background-color: #04AA6D;
-  color: white;
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -212,10 +213,9 @@ DISEÑO RESPOSIVE:
 
 /* Style the dropdown button to fit inside the topnav */
 .desplegable .boton-despl {
-  font-size: 17px;
+  font-size: 22px;
   border: none;
   outline: none;
-  color: white;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -291,13 +291,6 @@ DISEÑO RESPOSIVE:
     text-align: left;
   }
 } 
-
-
-
-
-
-
-
 
 /* ---------------
 *  CAJAS FLOTANTES
