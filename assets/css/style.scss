@@ -168,7 +168,7 @@ DISEÑO RESPOSIVE:
 #cabecera-nav-pral a {
   color: rgba(0,0,0,0.6);
   text-decoration: none;
-  display: block;
+  /* display: block; Esta regla interfiere con la ocultación del menú colapsable para móviles */
 }
 
 /* Tal vez no será necesario
@@ -183,7 +183,7 @@ DISEÑO RESPOSIVE:
 /* Menú  de navegación colapsable en dispositivos móviles */
 
  /* Add a black background color to the top navigation */
-.topnav {
+.cabecera-nav {
   background-color: #333;
   overflow: hidden;
 }
@@ -218,7 +218,6 @@ Desequilibra la alineación de los menús, y tal vez no sea necesario
 
 /* Style the dropdown button to fit inside the topnav */
 .desplegable .boton-despl {
-
   border: none;
   outline: none;
   background-color: inherit;
