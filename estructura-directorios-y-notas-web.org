@@ -2,6 +2,8 @@
 
 * Estructura de los directorios y notas de la web ablimpieza.com
 
+** Estructura
+
 - ABlimpieza (directorio raíz)
   - CNAME.md
   - _config.yml
@@ -22,3 +24,4 @@
   - _layouts
     - default.html
   - _posts
+
