@@ -261,8 +261,10 @@ Desequilibra la alineación de los menús, y tal vez no sea necesario
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.cabecera-nav) (.icon) */
+
+/* La regla .cabecera-nav a:not(:first-child) no funciona con este código,por lo que demomento se elimina el :not(:first-child */
 @media screen and (max-width: 600px) {
-  .cabecera-nav a:not(:first-child), .desplegable .boton-despl {
+  .cabecera-nav a, .desplegable .boton-despl {
     display: none;
   }
   .cabecera-nav a.icon {
